@@ -1,6 +1,7 @@
 #pognali nahui
 import telebot
 from telebot import types
+from config import open_weather_token
 bot = telebot.TeleBot(API Token)
 
 @bot.message_handler(commands=["start"])
