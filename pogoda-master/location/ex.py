@@ -1,6 +1,6 @@
 import overpyapi = overpy.Overpass()
 r = api.query("""
-area["ISO3166-1"="DE"][admin_level=2];  #пользователь должени сам ввести значение DE
+area["ISO3166-1"="DE"][admin_level=2];  #пользователь должен сам ввести значение DE
 (node["amenity"="cafe"](area);
  way["amenity"="cafe"](area);
  rel["amenity"="cafe"](area);
