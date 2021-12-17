@@ -15,7 +15,7 @@ def start (message):
 @bot.message_handler(content_types=['location'])
 def location (message):
     if message.location is not None:
-        locloc = message.location)
+        locloc = message.location
         print(locloc)
 
 bot.polling(none_stop = True)
