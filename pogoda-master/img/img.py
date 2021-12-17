@@ -20,7 +20,7 @@ def bop(bot, update):
     bot.send_photo(chat_id=chat_id, photo=url) #Бот отправляет изображение
 
 def main(): #Функция для запуска проги
-    updater = Updater('YOUR_TOKEN') #надо ввести
+    updater = Updater('5027873078:AAF2cNFI4jG37fBvtyKSyvVJM21zPp9nLuw') #надо ввести
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop',bop)) #тут неуверена в bop
     updater.start_polling()
